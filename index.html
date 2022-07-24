@@ -1,0 +1,234 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Photography Website</title>
+    <!-------------GOOGLE FONT------------------>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-------------SWIPERJS CDN----------------->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!-------------ICONSCOUT CDN---------------->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!------------CUSTOM STYLESHEET------------->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html" class="nav__logo"><img src="images/logo.png" alt="Nav Logo"></a>
+            <ul class="nav__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#exhibitions">Exhibition</a></li>
+            </ul>
+            <ul class="nav__socials">
+                <li><a href="https://instagram.com/" target="_blank">
+                    <i class="uil uil-instagram-alt"></i>
+                </a></li>
+                <li><a href="https://twitter.com/" target="_blank">
+                    <i class="uil uil-twitter"></i>
+                </a></li>
+                <li><a href="https://youtube.com/" target="_blank">
+                    <i class="uil uil-youtube"></i>
+                </a></li>
+            </ul>
+            <button class="nav__toggle-btn" id="nav__toggle-open">
+                <i class="uil uil-bars"></i>
+            </button>
+            <button class="nav__toggle-btn" id="nav__toggle-close">
+                <i class="uil uil-multiply"></i>
+            </button>
+        </div>
+    </nav>
+    <!--------------------------END OF NAV-------------------------->
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <div class="header__image-bg"></div>
+                <div class="header__image-lg">
+                    <img src="images/header.jpg" alt="">
+                </div>
+                <div class="header__image-sm">
+                    <img src="images/header.jpg" alt="">
+                </div>
+            </div>
+            <div class="header__right">
+                <div class="header__head">
+                    <div class="empty header__empty"></div>
+                    <a class="header__tag">#Best Travel Photographer</a>
+                </div>
+                <h1>See The Beauty Of The World Through My Lens</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Accusamus quas neque corrupti ut, voluptate 
+                    in porro est quibusdam, mollitia consequuntur 
+                    voluptatibus vel provident. Velit temporibus 
+                    veritatis commodi assumenda inventore fugiat.
+                </p>
+                <a href="mailto:believexpaudel@gmail.com" class="header__btn-md">Let's Talk</a>
+            </div>
+        </div>
+    </header>
+    <div class="header__frames">
+        <div class="header__frame">
+            <img src="images/frame1.jpg">
+        </div>
+        <div class="header__frame">
+            <img src="images/frame2.jpg">
+        </div>
+    </div>
+    <a href="mailto:believexpaudel@gmail.com" class="contact__btn header__btn">
+        <i class="uil uil-arrow-up-right"></i>
+        <p>CONTACT - SEND ME AN EMAIL</p>
+    </a>
+
+    <!----------------------END OF HEADER------------------->
+
+    <section id="about">
+        <div class="container about__container">
+            <h2 class="about__title">About<br />Diana Ayi</h2>
+            <a href="mailto:believexpaudel@gmail.com" class="contact__btn about__btn">
+                <i class="uil uil-arrow-up-right"></i>
+                <p>CONTACT - SEND ME AN EMAIL</p>
+            </a>
+            <div class="about__left">
+                <div class="about__image">
+                    <div class="about__image-bg"></div>
+                    <div class="about__image-lg">
+                        <img src="images/about.jpg">
+                    </div>
+                    <div class="about__image-sm">
+                        <img src="images/about.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="about__right">
+                <div class="empty about__empty"></div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Nostrum suscipit, et est harum iusto voluptate quam 
+                    maxime earum voluptas exercitationem illum quisquam 
+                    labore commodi saepe obcaecati aspernatur eum assumenda 
+                    possimus.
+                </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Nostrum suscipit, et est harum iusto voluptate quam 
+                    maxime earum voluptas exercitationem illum quisquam 
+                    labore commodi saepe obcaecati aspernatur eum assumenda 
+                    possimus.
+                </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Nostrum suscipit, et est harum iusto voluptate quam 
+                    maxime earum voluptas exercitationem illum quisquam 
+                    labore commodi saepe obcaecati aspernatur eum assumenda 
+                    possimus.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------------END OF ABOUT----------------------->
+
+    <section id="gallery">
+        <div class="container gallery__container swiper mySwiper">
+            <div class="gallery__head">
+                <h2 class="gallery__title">My Gallery</h2>
+                <div class="empty gallery__empty"></div>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Facilis reprehenderit laudantium unde ipsum libero.
+            </p>
+            <div class="swiper-wrapper">
+                <article class="swiper-slide">
+                    <img src="images/gallery1.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery2.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery3.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery4.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery5.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery6.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery7.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery8.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery9.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery10.jpg">
+                </article>
+                <article class="swiper-slide">
+                    <img src="images/gallery11.jpg">
+                </article>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!---------------------------END OF GALLERY---------------------->
+
+    <section id="exhibitions">
+        <div class="container exhibitions__container">
+            <h2 class="exhibitions__title">Exhibitions</h2>
+            <div class="empty exhibitions__empty"></div>
+            <div class="exhibitions__head">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Nesciunt nam eaque neque explicabo doloremque.
+                </p>
+                <a href="mailto:believexpaudel@gmail.com" class="contact__btn exhibitions__btn">
+                    <i class="uil uil-arrow-up-right"></i>
+                    <p>CONTACT - SEND ME AN EMAIL</p>
+                </a>
+            </div>
+            <div class="exhibitions__gallery">
+                <article><img src="images/ev.jpg"></article>
+                <article><img src="images/e1.jpg"></article>
+                <article><img src="images/e2.jpg"></article>
+                <article><img src="images/eh.jpg"></article>
+                <article><img src="images/e3.jpg"></article>
+                <article><img src="images/e4.jpg"></article>
+                <article><img src="images/e5.jpg"></article>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------END OF EXHIBITIONS-------------------->
+
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__head">
+                <h2 class="footer__title">believexpaudel@gmail.com</h2>
+                <a href="mailto:believexpaudel@gmail.com" class="footer__btn">
+                    <i class="uil uil-arrow-up-right"></i>
+                </a>
+            </div>
+            <ul class="footer__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#exhibitions">Exhibitions</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!------------------------SWIPER JS CDN-------------------------->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!--------------------------MAIN JS------------------------------->
+    <script src="main.js"></script>
+</body>
+</html>
